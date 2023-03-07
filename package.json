@@ -1,0 +1,15 @@
+{
+  "name": "sass_crash_course",
+  "version": "1.0.0",
+  "description": "THIS IS THE PREPROCESSER of CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch dist/style.scss style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
