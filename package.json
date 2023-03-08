@@ -4,7 +4,7 @@
   "description": "THIS IS THE PREPROCESSER of CSS",
   "main": "index.js",
   "scripts": {
-    "test": "sass --watch dist/style.scss style.css"
+    "test": "sass --watch dist/sass/style.scss dist/css/style.css"
   },
   "keywords": [],
   "author": "",
