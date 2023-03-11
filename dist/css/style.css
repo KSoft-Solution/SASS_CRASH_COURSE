@@ -1,7 +1,81 @@
 /* variable in css */
 /* variables in sass */
-body {
-  background: red;
+@font-face {
+  font-family: juraB;
+  src: url("../assets/fonts/Jura/Jura-Bold.ttf");
+}
+@font-face {
+  font-family: juraL;
+  src: url("../assets/fonts/Jura/Jura-Light.ttf");
+}
+@font-face {
+  font-family: juraM;
+  src: url("../assets/fonts/Jura/Jura-Medium.ttf");
+}
+@font-face {
+  font-family: juraR;
+  src: url("../assets/fonts/Jura/Jura-Regular.ttf");
+}
+@font-face {
+  font-family: juraSB;
+  src: url("../assets/fonts/Jura/Jura-SemiBold.ttf");
+}
+@font-face {
+  font-family: poEB;
+  src: url("../assets/fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+#container1 {
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+  border: 4px solid cyan;
+  height: 400px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  font-family: juraB;
+}
+
+#container2 {
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+  border: 4px solid cyan;
+  height: 400px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  font-family: juraL;
+}
+
+.container3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: pink;
+  border: 4px solid cyan;
+  height: 100px;
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  font-family: juraM;
+}
+
+.container4, .container5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(51, 226, 7);
+  border: 4px solid cyan;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  font-family: juraR;
+  background: #E384FF;
+}
+
+.container5 {
+  text-align: center;
+  font-family: poEB;
 }
 
 /*# sourceMappingURL=style.css.map */

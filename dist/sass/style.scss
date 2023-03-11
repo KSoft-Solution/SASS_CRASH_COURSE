@@ -1,7 +1,28 @@
-// @import "variables";
-@import 'variables' ;
-// $bg:cyan;
+@use "sass:map";
+@import "variables";
+@import "mixins";
+@import "fonts";
 
-body {
-  background: $bg;
+#container1 {
+  @include container;
+  font-family: juraB;
+}
+#container2 {
+  @include container;
+  font-family: juraL;
+}
+.container3 {
+  @include box(pink, 100px, 500px, 20px);
+  font-family: juraM;
+}
+.container4 {
+  @include box(rgb(51, 226, 7), 200px, 300px, 18px);
+  font-family: juraR;
+  background: map-get($colors, "bg-vio3");
+}
+
+.container5 {
+  @extend .container4;
+  text-align: center;
+  font-family: poEB;
 }
