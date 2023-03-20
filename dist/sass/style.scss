@@ -2,10 +2,20 @@
 @import "variables";
 @import "mixins";
 @import "fonts";
+@import "responsive";
+@import "functions";
+@import 'flowControl';
 
 #container1 {
   @include container;
   font-family: juraB;
+  @include media($tablet) {
+    font-family: poEB;
+    background: yellow;
+    font-size: sqrt(4) * 1px;
+    @include theme(true);
+  }
+
 }
 #container2 {
   @include container;

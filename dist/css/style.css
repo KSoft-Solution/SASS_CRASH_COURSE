@@ -1,5 +1,6 @@
 /* variable in css */
 /* variables in sass */
+/* responsive screen sizes */
 @font-face {
   font-family: juraB;
   src: url("../assets/fonts/Jura/Jura-Bold.ttf");
@@ -34,6 +35,14 @@
   margin: 10px;
   padding: 10px;
   font-family: juraB;
+}
+@media screen and (min-width: 960px) {
+  #container1 {
+    font-family: poEB;
+    background: yellow;
+    font-size: 16px;
+    background: #66347f;
+  }
 }
 
 #container2 {
@@ -70,7 +79,7 @@
   margin: 10px;
   padding: 10px;
   font-family: juraR;
-  background: #E384FF;
+  background: #e384ff;
 }
 
 .container5 {

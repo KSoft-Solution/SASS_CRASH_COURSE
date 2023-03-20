@@ -3,15 +3,19 @@
 //   --pb: 10px;
 // }
 
-/* variables in sass */ 
+/* variables in sass */
 $pb: 10px;
-$bg:red;
+$bg: red;
 
+// colors
+$colors: (
+  "bg-vio1": #aa77ff,
+  "bg-vio2": #66347f,
+  "bg-vio3": #e384ff,
+  "bg-vio4": #be6db7,
+);
 
-// colors 
-$colors:(
-    "bg-vio1":#AA77FF,
-    "bg-vio2":#66347F,
-    "bg-vio3":#E384FF,
-    "bg-vio4":#BE6DB7
-)
+/* responsive screen sizes */
+$mobile: 320px;
+$tablet: 960px;
+$desktop: 1024px;

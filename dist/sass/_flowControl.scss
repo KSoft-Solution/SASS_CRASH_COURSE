@@ -1,0 +1,12 @@
+// @mixin theme($darkmode:true){
+//     @if($darkmode){
+//         background: map-get($colors, "bg-vio2");
+//     }
+// }
+@mixin theme($darkmode: true) {
+  @if ($darkmode) {
+    background: map-get($colors, "bg-vio2");
+  } @else {
+    background: map-get($colors, "bg-vio1");
+  }
+}
